@@ -1,0 +1,36 @@
+/* Common Css Start */
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   outline:0;
+ }
+ ul{
+    list-style-type: none;
+ }
+ a{
+    text-decoration: none;
+ }
+ .container{
+    width: 1170px;
+    margin: 0 auto;
+ }
+ 
+
+ img{
+   display: block;
+ }
+ .cercle{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: coral;
+   color: #ffff;
+   text-align: center;
+   line-height: 50px;
+   cursor: pointer;
+}
+.cercle:hover{
+   background-color: rgb(212, 75, 26);
+   color: #27bfca; }
+/* Common Css End */
